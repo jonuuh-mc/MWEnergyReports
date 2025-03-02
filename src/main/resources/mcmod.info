@@ -5,7 +5,7 @@
         "description": "A few things can be customized, try /energyreporter and press tab to cycle sub-commands\n\n'Auto reports' will automatically send a message upon hitting 100 energy",
         "version": "${version}",
         "mcversion": "${mcversion}",
-        "url": "",
+        "url": "https://github.com/jonuuh-mc/MWEnergyReports",
         "updateUrl": "",
         "authorList": ["jonuuh"],
         "credits": "johnush - idea/inspiration",

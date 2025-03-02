@@ -58,7 +58,7 @@ public class ChatReporter
 
             if (currentEnergy == 100)
             {
-                Util.sendChatMessage("★ " + abilityName + " is fully charged! (100%)");
+                Util.sendChatMessage("✫ " + abilityName + " is fully charged! (100%)");
                 return;
             }
 
@@ -84,7 +84,7 @@ public class ChatReporter
             String className = Util.getClientClassName();
             String abilityName = settingsInstance.showAbilityName() ? Util.getClientAbilityName(className) : "Ability";
 
-            Util.sendChatMessage("★ " + abilityName + " is fully charged! (100%)");
+            Util.sendChatMessage("✫ " + abilityName + " is fully charged! (100%)");
         }
     }
 }
