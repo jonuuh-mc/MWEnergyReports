@@ -1,0 +1,16 @@
+[
+    {
+        "modid": "energyreporter",
+        "name": "EnergyReporter",
+        "description": "A few things can be customized, try /energyreporter and press tab to cycle sub-commands\n\n'Auto reports' will automatically send a message upon hitting 100 energy",
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "url": "",
+        "updateUrl": "",
+        "authorList": ["jonuuh"],
+        "credits": "johnush - idea/inspiration",
+        "logoFile": "",
+        "screenshots": [],
+        "dependencies": []
+    }
+]
