@@ -13,7 +13,7 @@ plugins {
 
 apply plugin: "net.minecraftforge.gradle.forge"
 
-version = "1.0.0" // Mod version
+version = "1.0.1" // Mod version
 group = "io.jonuuh.energyreporter" // Match with src/main/java -> child dir
 archivesBaseName = "EnergyReporter-1.8.9" // Name of compiled jar on build.
 

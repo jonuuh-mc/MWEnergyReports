@@ -65,7 +65,7 @@ public class ChatReporter
             int highestEPH = Math.max(gains.melee, gains.bow);
             String highestEPHWeapon = (gains.melee >= gains.bow) ? " melee" : " bow";
 
-            float hitsNeeded = (float) (100 - currentEnergy) / highestEPH;
+            int hitsNeeded = (int) Math.ceil((float) (100 - currentEnergy) / highestEPH);
 
             String keyword = (currentEnergy >= 80) ? "high" : (currentEnergy >= 50) ? "half" : "low";
 
